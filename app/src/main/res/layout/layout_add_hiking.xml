@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#DEB1BC"
+    android:padding="10dp">
+
+        <TextView
+            android:id="@+id/new_contact_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:lineSpacingExtra="10sp"
+            android:text="Add New Hiking"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:gravity="top"
+            android:hint=" Hiking Name "
+            android:inputType="textCapSentences|textMultiLine"
+            android:lines="3"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:gravity="top"
+            android:hint=" Location "
+            android:inputType="textCapSentences|textMultiLine"
+            android:lines="3"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:gravity="top"
+            android:hint=" Date "
+            android:inputType="textCapSentences|textMultiLine"
+            android:lines="3"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/length"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:gravity="top"
+            android:hint=" Length "
+            android:inputType="textCapSentences|textMultiLine"
+            android:lines="3"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/trail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:gravity="top"
+            android:hint=" Trail type "
+            android:inputType="textCapSentences|textMultiLine"
+            android:lines="3"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/parking"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:gravity="top"
+            android:hint=" Parking available (YES/NO) "
+            android:inputType="textCapSentences|textMultiLine"
+            android:lines="3"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/level"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:gravity="top"
+            android:hint=" Level "
+            android:inputType="textCapSentences|textMultiLine"
+            android:lines="3"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/weather"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:gravity="top"
+            android:hint=" Weather "
+            android:inputType="textCapSentences|textMultiLine"
+            android:lines="3"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:gravity="top"
+            android:hint=" Description "
+            android:inputType="textCapSentences|textMultiLine"
+            android:lines="3"
+            android:textSize="16sp" />
+
+</LinearLayout>
